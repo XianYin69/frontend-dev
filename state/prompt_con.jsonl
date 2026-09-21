@@ -1,0 +1,2 @@
+{"from": "start", "to": "信息不足", "why": "一句话不含触发条件"}
+{"from": "信息不足", "to": "驳回", "why": "应由frontmatter description承担触发"}
