@@ -11,8 +11,7 @@ def target_ok(base, root, url):
     u = url.split("?")[0].split("#")[0]
     if not u: return True
     p = os.path.join(root, u.lstrip("/")) if u.startswith("/") else os.path.normpath(os.path.join(base, u))
-    if os.path.isdir(p):
-        p = os.path.join(p, "index.html")
+    if os.path.isdir(p): p = os.path.join(p, "index.html")
     return os.path.exists(p)
 
 
