@@ -3,7 +3,6 @@
 用法: check_site.py <站根> [--pages 相对页 ...]（缺省全站；跳过.目录/node_modules；0=过 1=问题）"""
 import os, re, sys, argparse
 from collections import Counter
-
 SKIP = ("http:", "https:", "mailto:", "tel:", "data:", "#", "javascript:", "${")
 
 
@@ -13,7 +12,6 @@ def target_ok(base, root, url):
     p = os.path.join(root, u.lstrip("/")) if u.startswith("/") else os.path.normpath(os.path.join(base, u))
     if os.path.isdir(p): p = os.path.join(p, "index.html")
     return os.path.exists(p)
-
 
 def walk(root):
     for d, ds, fs in os.walk(root):
