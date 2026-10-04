@@ -1,5 +1,6 @@
 ---
 name: frontend-dev
+version: 1.0.0
 description: >
   Auto-generates and iterates Agent Skills
 license: MIT
