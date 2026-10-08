@@ -1,7 +1,7 @@
 # 用户需求表（requirement）
 
 - 日期：2026-09-21 · 会话：`SMS/sessions/2026-09-21`
-- 工作空间：`C:\Users\User\.kilocode\skills\frontend-dev`
+- 工作空间：`C:\Users\User\AppData\Local\SMS\skills\frontend-dev`
 
 ## 目标
 
@@ -18,7 +18,7 @@
 ## 约束
 
 - 每 .md / 脚本 ≤ 50 行；悬空链接 = 0；SKILL.md 含 YAML frontmatter；提示词一句话精简
-- 安装位置：全局 `C:\Users\User\.kilocode\skills\frontend-dev`
+- 安装位置：全局 `C:\Users\User\AppData\Local\SMS\skills\frontend-dev`
 - git：tmp 内仓库，功能分支策略；远端 `https://github.com/XianYin69/frontend-dev.git`（收尾阶段推送前再确认）
 
 ## 物理输入交互判断
